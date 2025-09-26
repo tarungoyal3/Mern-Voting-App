@@ -5,6 +5,7 @@
     # Frontend specific
     /frontend/node_modules
     /frontend/dist
+    /frontend/.env
 
     # Common files to ignore
     .DS_Store

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-const API_URL = 'http://localhost:3001/api';
+// const API_URL = 'http://localhost:3001/api';
+const API_URL = import.meta.env.VITE_API_BASE_URL;
 
 // 1. Login Page
 const LoginPage = ({ onLogin }) => {
